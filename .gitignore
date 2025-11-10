@@ -1,0 +1,39 @@
+```
+# Dataset (too large for GitHub)
+data/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+ENV/
+stereo-vision/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Results (optional - keep some for demo)
+# results/
+
+# Calibration summary (generated file)
+calibration_summary.txt
