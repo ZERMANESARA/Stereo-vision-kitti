@@ -136,6 +136,54 @@ This project uses the \[KITTI Vision Benchmark Suite](http://www.cvlibs.net/data
 
 
 
+\### 2. Stereo Rectification
+
+```bash
+
+python src/rectification.py
+
+```
+
+
+
+Rectifies stereo image pairs to align epipolar lines horizontally.
+
+
+
+\*\*Result:\*\*
+
+
+
+!\[Rectification Example](results/rectified/rectification\_comparison\_000000.png)
+
+
+
+\*Before (top): Original stereo pair | After (bottom): Rectified with horizontal epipolar lines\*
+
+
+
+\## Results
+
+
+
+\### Rectification
+
+
+
+The rectification process aligns the stereo images so that corresponding points lie on the same horizontal line, simplifying stereo matching from a 2D to a 1D search problem.
+
+
+
+\*\*Key features:\*\*
+
+\- Epipolar lines aligned horizontally (green lines)
+
+\- Minimal image distortion
+
+\- Ready for disparity computation
+
+
+
 \## Roadmap
 
 
